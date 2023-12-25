@@ -4,6 +4,8 @@
 <input type="text" name="t1">
 <input type="text" name="t2">
 <input type="submit">
+<%	//response.sendRedirect(request.getContextPath() + "/CommandeServlet");
+ %>
 </form>
 </body>
 </html>

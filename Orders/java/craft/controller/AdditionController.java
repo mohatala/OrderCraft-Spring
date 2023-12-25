@@ -16,7 +16,7 @@ public class AdditionController {
 		int j=Integer.parseInt(request.getParameter("t2"));
 		int k=i+j;
 		ModelAndView mv=new ModelAndView();
-		mv.setViewName("display");
+		mv.setViewName("ViewCommande/display");
 		mv.addObject("res", k);
 		return mv;
 	}
